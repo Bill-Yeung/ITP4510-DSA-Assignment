@@ -22,31 +22,53 @@ The simulation calculates waiting times and counter usage based on user input.
 
 ## Example
 --------------SETUP SIMULATION ENVIRONMENT---------------
+
 Input simulation length (min): 2
+
 Input number of counter: 2
 
 --------------START SIMULATION --------------
+
 At the beginning of iteration 1 ...
+
 Input serving time for a new customer: 2
+
 After 1 minute ##
+
 Teller_1 [3] Teller_2 [0] Waiting Queue: [ ]
+
 At the beginning of iteration 2 ...
+
 Input serving time for a new customer: 2
+
 After 2 minute ##
+
 Teller_1 [3] Teller_2 [4] Waiting Queue: [ ]
 
+
 --------------END SIMULATION --------------
+
 Total minutes simulated: 2 minutes
+
 Number of tellers: 2
+
 Number of customers served: 2 customers
 
+
 --------------DATA ANALYSIS --------------
+
 Average serving time: 2 minutes
+
 Maximum serving time: 2 minutes
+
 Minimum serving time: 2 minutes
+
 Total waiting time: 4 minutes
+
 Average number of customers waiting in the queue: 1.0
+
 Maximum queue length during the simulation: 1
+
 
 ## Project Structure
 
